@@ -1,60 +1,840 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>JavaSpringWebApp</title>
-    <meta name="description" content="" />
+<!doctype html>
+<html class="no-js" lang="zxx">
 
-    <spring:url value="/resources/gradients.css" var="gradientsCss" />
-    <spring:url value="/resources/styles.css" var="stylesCss" />
-    <spring:url value="/resources/set-background.js" var="setBackgroundJs" />
-    <spring:url value="/resources/tweet.svg" var="tweetSvg" />
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="John Doe">
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Home</title>
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+    <!-- Plugin-CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Main-Stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
-    <link href="${stylesCss}" rel="stylesheet">
-    <link href="${gradientsCss}" rel="stylesheet">
-  </head>
-  <body class="">
-    <div class="wrapper">
-      <div class="graphics">
-        <div class="tower">
-          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-11 170 1000 429" enable-background="new -11 170 1000 429" xml:space="preserve">
-            <path class="path" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M989,595H712v-35c0,0,4.5-1.8,8-3 c5.2-1.8,12.5,5.3,22-4c3.4-3.4-0.9-7.8-0.4-10.1c0.7-3.1,4.4-6.8,1.6-11.4c-2.6-4.2-6.9-3.6-8.2-5.5c-1.7-2.3-2.2-6.3-7-9 c-5.6-3.1-9.9,0.2-13-1c-2.5-0.9-2.3-5-9-5c-4.8,0-7.2,4.8-10,5c-2.3,0.2-4.9-4.5-10-2c-5.5,2.8-4,7.3-6,9c-1.4,1.2-3.1,3.2-6,4.2 c-2.6,0.9-4.9,3-4,8.8c0.6,3.7,6.8,4.1,7.5,6c1,2.9-6.4,6.2-2.5,12c3,4.5,9,1.6,12,1c1.9-0.4,7.1-0.7,8,0c3.4,2.5,9,5,9,5v35 l-506-1.5L182.3,444l0.3-0.8v-69.6l-0.2-0.2l12.3-72.3c10.9-2.6,16.5-6.5,16.5-6.5l-5.2-2.9l1.1-5.8l15-3.3l-10.1-3.9l1.2-4.6 c-15.8-8.3-32.2-11-32.2-11v-3.6l4.1-6.5h-4.9v-4.4h-8.3V244h-1.2l-1.7-31.2l-1-1.3l-1,1.3l-1.7,31.2h-1.2v4.8h-8.3v4.4h-4.9 l4.1,6.5v3.6c0,0-16.5,2.7-32.2,11l1.2,4.6l-10.1,3.9l15,3.3l1.1,5.8l-5.1,2.9c0,0,5.5,3.9,16.4,6.5l12.3,72.4l-0.1,0.1v69.6 l0.3,0.8l-14.6,149.4h-1.2H-11"/>
-            <path class="path" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M8,393.7c0-13.5,12.1-10.8,15.6-14.7 c2.8-3.2-1-8.8,9-13.9c7.9-4.1,9.7,1,13.1,0.8c4.5-0.3,3.3-6.7,14.7-6.6c12.7,0.2,11.2,8.4,14.7,10.6c3,1.9,7.9-2.1,13.9,4.1 c3.8,4,1.3,7.4,2.5,9.8c2.2,4.4,14.7,0.9,14.7,13.9c0,12.2-13.5,8.3-17.2,10.6c-3.6,2.3-4.4,9.3-13.1,11.5c-8,2-9.5-4-13.9-4.1 c-5-0.1-5.5,8.6-18.8,6.6c-12.3-1.9-12.3-9.1-16.4-12.3C21.9,406.3,8,408.6,8,393.7z"/>
-            <path class="path" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M325.1,313.9c-3.9,3-3.9,10-15.7,11.8 c-12.8,2-13.3-6.4-18-6.3c-4.3,0.1-5.7,5.8-13.3,3.9c-8.4-2.1-9.1-8.8-12.5-11c-3.6-2.3-16.5,1.5-16.5-10.2c0-12.4,12-9.1,14.1-13.3 c1.1-2.3-1.3-5.6,2.4-9.4c5.8-6,10.4-2.1,13.3-3.9c3.4-2.1,2-10,14.1-10.2c11-0.2,9.9,6,14.1,6.3c3.3,0.2,5-4.7,12.5-0.8 c9.6,4.9,6,10.3,8.6,13.3c3.3,3.7,14.9,1.2,14.9,14.1C343.1,312.5,329.8,310.3,325.1,313.9z"/>
-            <path class="path" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M18.4,229.5c0-13.5,12.1-10.8,15.6-14.7 c2.8-3.2-1-8.8,9-13.9c7.9-4.1,9.7,1,13.1,0.8c4.5-0.3,3.3-6.7,14.7-6.6c12.7,0.2,11.2,8.4,14.7,10.6c3,1.9,7.9-2.1,13.9,4.1 c3.8,4,1.3,7.4,2.5,9.8c2.2,4.4,14.7,0.9,14.7,13.9c0,12.2-13.5,8.3-17.2,10.6c-3.6,2.3-4.4,9.3-13.1,11.5c-8,2-9.5-4-13.9-4.1 c-5-0.1-5.5,8.6-18.8,6.6c-12.3-1.9-12.3-9.1-16.4-12.3C32.2,242.1,18.4,244.4,18.4,229.5z"/>
-            <path class="path" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M215.8,398.8c0-13.5,12.1-10.8,15.6-14.7 c2.8-3.2-1-8.8,9-13.9c7.9-4.1,9.7,1,13.1,0.8c4.5-0.3,3.3-6.7,14.7-6.6c12.7,0.2,11.2,8.4,14.7,10.6c3,1.9,7.9-2.1,13.9,4.1 c3.8,4,1.3,7.4,2.5,9.8c2.2,4.4,14.7,0.9,14.7,13.9c0,12.2-13.5,8.3-17.2,10.6c-3.6,2.3-4.4,9.3-13.1,11.5c-8,2-9.5-4-13.9-4.1 c-5-0.1-5.5,8.6-18.8,6.6c-12.3-1.9-12.3-9.1-16.4-12.3C229.7,411.3,215.8,413.6,215.8,398.8z"/>
-          </svg>
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#primary-menu">
+
+    <div class="preloader">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
         </div>
-      </div>
-
-      <header>
-        <nav class="website-nav">
-          <ul>
-            <li><a class="home-link" href="https://aws.amazon.com/">Home</a></li>
-            <li><a href="https://aws.amazon.com/what-is-cloud-computing/">About</a></li>
-            <li><a href="https://aws.amazon.com/solutions/">Services</a></li>
-            <li><a href="https://aws.amazon.com/contact-us/">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-
-      <div class="message">
-          <a class="twitter-link" href="http://twitter.com/home/?status=I%20created%20a%20project%20with%20AWS%20CodeStar!%20%23AWS%20%23AWSCodeStar%20https%3A%2F%2Faws.amazon.com%2Fcodestar">
-              <img src="${tweetSvg}" alt="Tweet"/>
-          </a>
-        <div class="text">
-          <h1>Parabéns Nilson!</h1>
-          <h2>Você criou um projeto  Java Spring web application.</h2>
-        </div>
-      </div>
     </div>
+    <!--Mainmenu-area-->
+    <div class="mainmenu-area" data-spy="affix" data-offset-top="100">
+        <div class="container">
+            <!--Logo-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand logo">
+                    <h2>colid</h2>
+                </a>
+            </div>
+            <!--Logo/-->
+            <nav class="collapse navbar-collapse" id="primary-menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#home-page">Home</a></li>
+                    <li><a href="#service-page">Service</a></li>
+                    <li><a href="#feature-page">Features</a></li>
+                    <li><a href="#price-page">Pricing</a></li>
+                    <li><a href="#team-page">Team</a></li>
+                    <li><a href="#faq-page">FAQ</a></li>
+                    <li><a href="#blog-page">Blog</a></li>
+                    <li><a href="#contact-page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!--Mainmenu-area/-->
 
-    <footer>
-      <p class="footer-contents">Designed and developed with <a href="https://aws.amazon.com/careers/devtools-jobs/">♥</a> in Seattle.</p>
+
+
+    <!--Header-area-->
+    <header class="header-area overlay full-height relative v-center" id="home-page">
+        <div class="absolute anlge-bg"></div>
+        <div class="container">
+            <div class="row v-center">
+                <div class="col-xs-12 col-md-7 header-text">
+                    <h2>It’s all about Promoting your Business</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ex inventore vel error quibusdam animi fugiat, doloribus dolores consectetur nulla deleniti sint blanditiis quod debitis quis vitae officiis tempora numquam.</p>
+                    <a href="#" class="button white">Watch video</a>
+                </div>
+                <div class="hidden-xs hidden-sm col-md-5 text-right">
+                    <div class="screen-box screen-slider">
+                        <div class="item">
+                            <img src="images/screen-1.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/screen-2.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/screen-3.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/screen-4.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/screen-5.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Header-area/-->
+
+
+
+    <!--Feature-area-->
+    <section class="gray-bg section-padding" id="service-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/service-icon-1.png" alt="">
+                        </div>
+                        <h4>EASY TO USE</h4>
+                        <p>Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/service-icon-2.png" alt="">
+                        </div>
+                        <h4>AWESOEM DESIGN</h4>
+                        <p>Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/service-icon-3.png" alt="">
+                        </div>
+                        <h4>EASY TO CUSTOMAIZE</h4>
+                        <p>Lorem ipsum dolor sit amt, consectet adop adipisicing elit, sed do eiusmod tepo raraincididunt ugt labore.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Feature-area/-->
+
+    <section class="angle-bg sky-bg section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="caption_slide" class="carousel slide caption-slider" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active row">
+                                <div class="v-center">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="caption-title" data-animation="animated fadeInUp">
+                                            <h2>Easy to build</h2>
+                                        </div>
+                                        <div class="caption-desc" data-animation="animated fadeInUp">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
+                                        </div>
+                                        <div class="caption-button" data-animation="animated fadeInUp">
+                                            <a href="#" class="button">Read more</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo one" data-animation="animated fadeInRight">
+                                            <img src="images/screen-1.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo two" data-animation="animated fadeInRight">
+                                            <img src="images/screen-2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item row">
+                                <div class="v-center">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="caption-title" data-animation="animated fadeInUp">
+                                            <h2>Easy to use</h2>
+                                        </div>
+                                        <div class="caption-desc" data-animation="animated fadeInUp">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
+                                        </div>
+                                        <div class="caption-button" data-animation="animated fadeInUp">
+                                            <a href="#" class="button">Read more</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo one" data-animation="animated fadeInRight">
+                                            <img src="images/screen-3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo two" data-animation="animated fadeInRight">
+                                            <img src="images/screen-4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item row">
+                                <div class="v-center">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="caption-title" data-animation="animated fadeInUp">
+                                            <h2>Easy to customize</h2>
+                                        </div>
+                                        <div class="caption-desc" data-animation="animated fadeInUp">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
+                                        </div>
+                                        <div class="caption-button" data-animation="animated fadeInUp">
+                                            <a href="#" class="button">Read more</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo one" data-animation="animated fadeInRight">
+                                            <img src="images/screen-7.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo two" data-animation="animated fadeInRight">
+                                            <img src="images/screen-2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item row">
+                                <div class="v-center">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="caption-title" data-animation="animated fadeInUp">
+                                            <h2>Awesome design</h2>
+                                        </div>
+                                        <div class="caption-desc" data-animation="animated fadeInUp">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute</p>
+                                        </div>
+                                        <div class="caption-button" data-animation="animated fadeInUp">
+                                            <a href="#" class="button">Read more</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo one" data-animation="animated fadeInRight">
+                                            <img src="images/screen-3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo two" data-animation="animated fadeInRight">
+                                            <img src="images/screen-4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators caption-indector">
+                            <li data-target="#caption_slide" data-slide-to="0" class="active">
+                                <strong>Lorem ipsum </strong>consectetur adipisicing elit.
+                            </li>
+                            <li data-target="#caption_slide" data-slide-to="1">
+                                <strong>Lorem ipsum </strong>consectetur adipisicing elit.
+                            </li>
+                            <li data-target="#caption_slide" data-slide-to="2">
+                                <strong>Lorem ipsum </strong>consectetur adipisicing elit.
+                            </li>
+                            <li data-target="#caption_slide" data-slide-to="3">
+                                <strong>Lorem ipsum </strong>consectetur adipisicing elit.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="gray-bg section-padding" id="feature-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="page-title">
+                        <h2>SPECIAL FEATURES</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/portfolio-icon-1.png" alt="">
+                        </div>
+                        <h3>Creative Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/portfolio-icon-2.png" alt="">
+                        </div>
+                        <h3>Unlimited Features</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/portfolio-icon-3.png" alt="">
+                        </div>
+                        <h3>Full Free Chat</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/portfolio-icon-4.png" alt="">
+                        </div>
+                        <h3>Retina ready</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/portfolio-icon-5.png" alt="">
+                        </div>
+                        <h3>High Resolution</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/portfolio-icon-6.png" alt="">
+                        </div>
+                        <h3>Clean Codes</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quas nulla est adipisci,</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="price-area overlay section-padding" id="price-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="page-title">
+                        <h2>Afortable Price</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="price-table">
+                        <h3 class="text-uppercase price-title">Basic</h3>
+                        <hr>
+                        <ul class="list-unstyled">
+                            <li><strong class="amount">$ <span class="big">20</span></strong>/Month</li>
+                            <li>100 MB Disk Space</li>
+                            <li>2 Subdomains</li>
+                            <li>5 Email Accounts</li>
+                            <li>Webmail Support</li>
+                            <li>Customer Support 24/7</li>
+                        </ul>
+                        <hr>
+                        <a href="#" class="button">Purchase</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="price-table active">
+                        <span class="price-info"><span class="ti-crown"></span></span>
+                        <h3 class="text-uppercase price-title">STABDARD</h3>
+                        <hr>
+                        <ul class="list-unstyled">
+                            <li><strong class="amount">$ <span class="big">39</span></strong>/Month</li>
+                            <li>100 MB Disk Space</li>
+                            <li>2 Subdomains</li>
+                            <li>5 Email Accounts</li>
+                            <li>Webmail Support</li>
+                            <li>Customer Support 24/7</li>
+                        </ul>
+                        <hr>
+                        <a href="#" class="button">Purchase</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="price-table">
+                        <h3 class="text-uppercase price-title">UNLIMITED</h3>
+                        <hr>
+                        <ul class="list-unstyled">
+                            <li><strong class="amount">$ <span class="big">59</span></strong>/Month</li>
+                            <li>100 MB Disk Space</li>
+                            <li>2 Subdomains</li>
+                            <li>5 Email Accounts</li>
+                            <li>Webmail Support</li>
+                            <li>Customer Support 24/7</li>
+                        </ul>
+                        <hr>
+                        <a href="#" class="button">Purchase</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="section-padding gray-bg" id="team-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="page-title">
+                        <h2>Special team</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="single-team">
+                        <div class="team-photo">
+                            <img src="images/team-section-1.png" alt="">
+                        </div>
+                        <h4>JEMY SEDONCE</h4>
+                        <h6>Co. Founder</h6>
+                        <ul class="social-menu">
+                            <li><a href="#"><i class="ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter"></i></a></li>
+                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
+                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="single-team">
+                        <div class="team-photo">
+                            <img src="images/team-section-2.png" alt="">
+                        </div>
+                        <h4>DEBORAH BROWN</h4>
+                        <h6>UX Designer</h6>
+                        <ul class="social-menu">
+                            <li><a href="#"><i class="ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter"></i></a></li>
+                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
+                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="single-team">
+                        <div class="team-photo">
+                            <img src="images/team-section-3.png" alt="">
+                        </div>
+                        <h4>HARRY BANKS</h4>
+                        <h6>Founder</h6>
+                        <ul class="social-menu">
+                            <li><a href="#"><i class="ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter"></i></a></li>
+                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
+                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="single-team">
+                        <div class="team-photo">
+                            <img src="images/team-section-4.png" alt="">
+                        </div>
+                        <h4>VICTORIA CLARK</h4>
+                        <h6>Creative Director</h6>
+                        <ul class="social-menu">
+                            <li><a href="#"><i class="ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter"></i></a></li>
+                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
+                            <li><a href="#"><i class="ti-pinterest"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="testimonial-area section-padding gray-bg overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="page-title">
+                        <h2>Client says</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                    <div class="testimonials">
+                        <div class="testimonial">
+                            <div class="testimonial-photo">
+                                <img src="images/avatar-small-1.png" alt="">
+                            </div>
+                            <h3>AR Rahman</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vero dolore officiis, velit id libero illum harum hic magni, quae repellendus adipisci possimus saepe nostrum doloribus repudiandae asperiores commodi voluptate.</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-photo">
+                                <img src="images/avatar-small-2.png" alt="">
+                            </div>
+                            <h3>AR Rahman</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vero dolore officiis, velit id libero illum harum hic magni, quae repellendus adipisci possimus saepe nostrum doloribus repudiandae asperiores commodi voluptate.</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-photo">
+                                <img src="images/avatar-small-3.png" alt="">
+                            </div>
+                            <h3>AR Rahman</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vero dolore officiis, velit id libero illum harum hic magni, quae repellendus adipisci possimus saepe nostrum doloribus repudiandae asperiores commodi voluptate.</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-photo">
+                                <img src="images/avatar-small-4.png" alt="">
+                            </div>
+                            <h3>AR Rahman</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vero dolore officiis, velit id libero illum harum hic magni, quae repellendus adipisci possimus saepe nostrum doloribus repudiandae asperiores commodi voluptate.</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-photo">
+                                <img src="images/avatar-small-5.png" alt="">
+                            </div>
+                            <h3>AR Rahman</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vero dolore officiis, velit id libero illum harum hic magni, quae repellendus adipisci possimus saepe nostrum doloribus repudiandae asperiores commodi voluptate.</p>
+                        </div>
+                        <div class="testimonial">
+                            <div class="testimonial-photo">
+                                <img src="images/avatar-small-6.png" alt="">
+                            </div>
+                            <h3>AR Rahman</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel vero dolore officiis, velit id libero illum harum hic magni, quae repellendus adipisci possimus saepe nostrum doloribus repudiandae asperiores commodi voluptate.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="gray-bg section-padding" id="faq-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="page-title">
+                        <h2>Frequently Asked Questions</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                    <div class="panel-group" id="accordion">
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">Sedeiusmod tempor inccsetetur aliquatraiy?</a>
+                            </h4>
+                            <div id="collapse1" class="panel-collapse collapse in">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Tempor inccsetetur aliquatraiy?</a>
+                            </h4>
+                            <div id="collapse2" class="panel-collapse collapse">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Lorem ipsum dolor amet, consectetur adipisicing ?</a>
+                            </h4>
+                            <div id="collapse3" class="panel-collapse collapse">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Lorem ipsum dolor amet, consectetur adipisicing ?</a>
+                            </h4>
+                            <div id="collapse4" class="panel-collapse collapse">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="section-padding overlay client-area overlay" id="client-page">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xs-12">
+                    <div class="clients">
+                        <div class="item">
+                            <img src="images/themeforest.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/coadcanyon.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/graphicriver.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/docean.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/audiojungle.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/actividen.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/photodone.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/videgub.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/themeforest.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/coadcanyon.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/graphicriver.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/docean.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/audiojungle.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/actividen.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/photodone.gif" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/videgub.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-padding gray-bg" id="blog-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single-blog">
+                        <div class="blog-photo">
+                            <img src="images/small1.jpg" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h3><a href="#">Beautiful Place for your Great Journey</a></h3>
+                            <ul class="blog-meta">
+                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>
+                                <li><span class="ti-calendar"></span> <a href="#">Feb 01, 2017</a></li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nemo eaque expedita aliquid dolorem repellat perferendis, facilis aut fugit, impedit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single-blog">
+                        <div class="blog-photo">
+                            <img src="images/small2.jpg" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h3><a href="#">Beautiful Place for your Great Journey</a></h3>
+                            <ul class="blog-meta">
+                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>
+                                <li><span class="ti-calendar"></span> <a href="#">Feb 01, 2017</a></li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nemo eaque expedita aliquid dolorem repellat perferendis, facilis aut fugit, impedit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="single-blog">
+                        <div class="blog-photo">
+                            <img src="images/small3.jpg" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <h3><a href="#">Beautiful Place for your Great Journey</a></h3>
+                            <ul class="blog-meta">
+                                <li><span class="ti-user"></span> <a href="#">Admin</a></li>
+                                <li><span class="ti-calendar"></span> <a href="#">Feb 01, 2017</a></li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nemo eaque expedita aliquid dolorem repellat perferendis, facilis aut fugit, impedit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="footer-area relative sky-bg" id="contact-page">
+        <div class="absolute footer-bg"></div>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                        <div class="page-title">
+                            <h2>Contact with us</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptates, temporibus at, facere harum fugiat!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-4">
+                        <address class="side-icon-boxes">
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="images/location-arrow.png" alt="">
+                                </div>
+                                <p><strong>Address: </strong> Box 564, Disneyland <br />USA</p>
+                            </div>
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="images/phone-arrow.png" alt="">
+                                </div>
+                                <p><strong>Telephone: </strong>
+                                    <a href="callto:8801812726495">+8801812726495</a> <br />
+                                    <a href="callto:8801687420471">+8801687420471</a>
+                                </p>
+                            </div>
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="images/mail-arrow.png" alt="">
+                                </div>
+                                <p><strong>E-mail: </strong>
+                                    <a href="mailto:youremail@example.com">youremail@example.com</a> <br />
+                                    <a href="mailto:youremail@example.com">example@mail.com</a>
+                                </p>
+                            </div>
+                        </address>
+                    </div>
+                    <div class="col-xs-12 col-md-8">
+                        <form action="process.php" id="contact-form" method="post" class="contact-form">
+                            <div class="form-double">
+                                <input type="text" id="form-name" name="form-name" placeholder="Your name" class="form-control" required="required">
+                                <input type="email" id="form-email" name="form-email" class="form-control" placeholder="E-mail address" required="required">
+                            </div>
+                            <input type="text" id="form-subject" name="form-subject" class="form-control" placeholder="Message topic">
+                            <textarea name="message" id="form-message" name="form-message" rows="5" class="form-control" placeholder="Your message" required="required"></textarea>
+                            <button type="sibmit" class="button">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 pull-right">
+                        <ul class="social-menu text-right x-left">
+                            <li><a href="#"><i class="ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter"></i></a></li>
+                            <li><a href="#"><i class="ti-google"></i></a></li>
+                            <li><a href="#"><i class="ti-linkedin"></i></a></li>
+                            <li><a href="#"><i class="ti-github"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id corrupti architecto consequuntur, laborum quaerat sed nemo temporibus unde, beatae vel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <p>&copy;Copyright 2018 All right resurved.  This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com">Colorlib</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
-    <script src={$setBackgroundJs}"></script>
-  </body>
+
+
+
+
+    <!--Vendor-JS-->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <!--Plugin-JS-->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/contact-form.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="js/scrollUp.min.js"></script>
+    <script src="js/magnific-popup.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!--Main-active-JS-->
+    <script src="js/main.js"></script>
+</body>
+
 </html>
