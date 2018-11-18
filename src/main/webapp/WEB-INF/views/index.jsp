@@ -17,15 +17,15 @@
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
     <!-- Plugin-CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="views/css/bootstrap.min.css">
+    <link rel="stylesheet" href="views/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="views/css/themify-icons.css">
+    <link rel="stylesheet" href="views/css/magnific-popup.css">
+    <link rel="stylesheet" href="views/css/animate.css">
     <!-- Main-Stylesheets -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="views/css/normalize.css">
+    <link rel="stylesheet" href="views/style.css">
+    <link rel="stylesheet" href="views/css/responsive.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
     <!--[if lt IE 9]>
@@ -195,12 +195,12 @@
                                     </div>
                                     <div class="col-xs-6 col-md-3">
                                         <div class="caption-photo one" data-animation="animated fadeInRight">
-                                            <img src="images/screen-3.jpg" alt="">
+                                            <img src="views/images/screen-3.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-md-3">
                                         <div class="caption-photo two" data-animation="animated fadeInRight">
-                                            <img src="images/screen-4.jpg" alt="">
+                                            <img src="views/images/screen-4.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -220,12 +220,12 @@
                                     </div>
                                     <div class="col-xs-6 col-md-3">
                                         <div class="caption-photo one" data-animation="animated fadeInRight">
-                                            <img src="images/screen-7.jpg" alt="">
+                                            <img src="views/images/screen-7.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-md-3">
                                         <div class="caption-photo two" data-animation="animated fadeInRight">
-                                            <img src="images/screen-2.jpg" alt="">
+                                            <img src="views/images/screen-2.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -245,12 +245,12 @@
                                     </div>
                                     <div class="col-xs-6 col-md-3">
                                         <div class="caption-photo one" data-animation="animated fadeInRight">
-                                            <img src="images/screen-3.jpg" alt="">
+                                            <img src="views/images/screen-3.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="col-xs-6 col-md-3">
                                         <div class="caption-photo two" data-animation="animated fadeInRight">
-                                            <img src="images/screen-4.jpg" alt="">
+                                            <img src="views/images/screen-4.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -431,7 +431,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="single-team">
                         <div class="team-photo">
-                            <img src="images/team-section-1.png" alt="">
+                            <img src="views/images/team-section-1.png" alt="">
                         </div>
                         <h4>JEMY SEDONCE</h4>
                         <h6>Co. Founder</h6>
@@ -446,7 +446,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="single-team">
                         <div class="team-photo">
-                            <img src="images/team-section-2.png" alt="">
+                            <img src="views/images/team-section-2.png" alt="">
                         </div>
                         <h4>DEBORAH BROWN</h4>
                         <h6>UX Designer</h6>
@@ -461,7 +461,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="single-team">
                         <div class="team-photo">
-                            <img src="images/team-section-3.png" alt="">
+                            <img src="views/images/team-section-3.png" alt="">
                         </div>
                         <h4>HARRY BANKS</h4>
                         <h6>Founder</h6>
@@ -625,52 +625,52 @@
                 <div class="col-xs-12">
                     <div class="clients">
                         <div class="item">
-                            <img src="images/themeforest.gif" alt="">
+                            <img src="views/images/themeforest.gif" alt="">
                         </div>
                         <div class="item">
-                            <img src="images/coadcanyon.gif" alt="">
+                            <img src="views/images/coadcanyon.gif" alt="">
                         </div>
                         <div class="item">
-                            <img src="images/graphicriver.gif" alt="">
+                            <img src="views/images/graphicriver.gif" alt="">
                         </div>
                         <div class="item">
-                            <img src="images/docean.gif" alt="">
+                            <img src="views/images/docean.gif" alt="">
                         </div>
                         <div class="item">
-                            <img src="images/audiojungle.gif" alt="">
+                            <img src="views/images/audiojungle.gif" alt="">
                         </div>
                         <div class="item">
-                            <img src="images/actividen.gif" alt="">
+                            <img src="views/images/actividen.gif" alt="">
                         </div>
                         <div class="item">
-                            <img src="images/photodone.gif" alt="">
+                            <img src="views/images/photodone.gif" alt="">
                         </div>
                         <div class="item">
-                            <img src="images/videgub.gif" alt="">
+                            <img src="views/images/videgub.gif" alt="">
                         </div>
                         <div class="item">
-                            <img src="images/themeforest.gif" alt="">
+                            <img src="views/images/themeforest.gif" alt="">
                         </div>
                         <div class="item">
-                            <img src="images/coadcanyon.gif" alt="">
+                            <img src="views/images/coadcanyon.gif" alt="">
                         </div>
                         <div class="item">
-                            <img src="images/graphicriver.gif" alt="">
+                            <img src="views/images/graphicriver.gif" alt="">
                         </div>
                         <div class="item">
-                            <img src="images/docean.gif" alt="">
+                            <img src="views/images/docean.gif" alt="">
                         </div>
                         <div class="item">
-                            <img src="images/audiojungle.gif" alt="">
+                            <img src="views/images/audiojungle.gif" alt="">
                         </div>
                         <div class="item">
-                            <img src="images/actividen.gif" alt="">
+                            <img src="views/images/actividen.gif" alt="">
                         </div>
                         <div class="item">
-                            <img src="images/photodone.gif" alt="">
+                            <img src="views/images/photodone.gif" alt="">
                         </div>
                         <div class="item">
-                            <img src="images/videgub.gif" alt="">
+                            <img src="views/images/videgub.gif" alt="">
                         </div>
                     </div>
                 </div>
@@ -685,7 +685,7 @@
                 <div class="col-xs-12 col-sm-4">
                     <div class="single-blog">
                         <div class="blog-photo">
-                            <img src="images/small1.jpg" alt="">
+                            <img src="views/images/small1.jpg" alt="">
                         </div>
                         <div class="blog-content">
                             <h3><a href="#">Beautiful Place for your Great Journey</a></h3>
@@ -700,7 +700,7 @@
                 <div class="col-xs-12 col-sm-4">
                     <div class="single-blog">
                         <div class="blog-photo">
-                            <img src="images/small2.jpg" alt="">
+                            <img src="views/images/small2.jpg" alt="">
                         </div>
                         <div class="blog-content">
                             <h3><a href="#">Beautiful Place for your Great Journey</a></h3>
@@ -715,7 +715,7 @@
                 <div class="col-xs-12 col-sm-4">
                     <div class="single-blog">
                         <div class="blog-photo">
-                            <img src="images/small3.jpg" alt="">
+                            <img src="views/images/small3.jpg" alt="">
                         </div>
                         <div class="blog-content">
                             <h3><a href="#">Beautiful Place for your Great Journey</a></h3>
@@ -752,13 +752,13 @@
                         <address class="side-icon-boxes">
                             <div class="side-icon-box">
                                 <div class="side-icon">
-                                    <img src="images/location-arrow.png" alt="">
+                                    <img src="views/images/location-arrow.png" alt="">
                                 </div>
                                 <p><strong>Address: </strong> Box 564, Disneyland <br />USA</p>
                             </div>
                             <div class="side-icon-box">
                                 <div class="side-icon">
-                                    <img src="images/phone-arrow.png" alt="">
+                                    <img src="views/images/phone-arrow.png" alt="">
                                 </div>
                                 <p><strong>Telephone: </strong>
                                     <a href="callto:8801812726495">+8801812726495</a> <br />
@@ -767,7 +767,7 @@
                             </div>
                             <div class="side-icon-box">
                                 <div class="side-icon">
-                                    <img src="images/mail-arrow.png" alt="">
+                                    <img src="views/images/mail-arrow.png" alt="">
                                 </div>
                                 <p><strong>E-mail: </strong>
                                     <a href="mailto:youremail@example.com">youremail@example.com</a> <br />
@@ -824,17 +824,17 @@
 
 
     <!--Vendor-JS-->
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="views/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="views/js/vendor/bootstrap.min.js"></script>
     <!--Plugin-JS-->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/contact-form.js"></script>
-    <script src="js/jquery.parallax-1.1.3.js"></script>
-    <script src="js/scrollUp.min.js"></script>
-    <script src="js/magnific-popup.min.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="views/js/owl.carousel.min.js"></script>
+    <script src="views/js/contact-form.js"></script>
+    <script src="views/js/jquery.parallax-1.1.3.js"></script>
+    <script src="views/js/scrollUp.min.js"></script>
+    <script src="views/js/magnific-popup.min.js"></script>
+    <script src="views/js/wow.min.js"></script>
     <!--Main-active-JS-->
-    <script src="js/main.js"></script>
+    <script src="views/js/main.js"></script>
 </body>
 
 </html>
