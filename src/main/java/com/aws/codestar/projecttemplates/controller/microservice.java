@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class microservice {
 	
-	@RequestMapping("/produto")
-	public String produto() {
-		return "tudo certo AWS?";
-	}
+	@RequestMapping(value = "/produto", method = RequestMethod.GET)
+	  public String produto() {
+	    return "Bem vindo AWS";
+	  }
 
 }
