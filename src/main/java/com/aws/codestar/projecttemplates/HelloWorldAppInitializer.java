@@ -6,6 +6,7 @@ import com.aws.codestar.projecttemplates.configuration.MvcConfig;
 
 /**
  * Utility to initialize the Spring MVC HelloWorld application. nilson candido
+ * Projeto e Prática II
  */
 public class HelloWorldAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
